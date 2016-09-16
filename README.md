@@ -559,10 +559,7 @@ Check your npm dependencies for known vulnerabilities.
 
 ```sh
 npm install -g nsp
-# either audit the shrinkwrap
-nsp audit-shrinkwrap  
-# or the package.json
-nsp audit-package
+nsp check # audit package.json
 ```
 
 ----
@@ -573,7 +570,7 @@ Snyk is similar to the Node Security Platform, but its aim is to provide a tool 
 
 ```sh
 npm install -g snyk
-snyk test
+snyk test # audit node_modules directory
 ```
 
 ---
