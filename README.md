@@ -332,7 +332,9 @@ Cross-Site Request Forgery is an attack that forces a user to execute unwanted a
 
 <a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)">via OWASP</a>
 
-[CSRF demo](http://localhost:4000/tutorial/a8)
+[NodeGoat](https://github.com/OWASP/NodeGoat) - an environment to learn how OWASP Top 10 security risks apply to Node.js
+
+[NodeGoat CSRF demo](https://nodegoat.herokuapp.com/tutorial/a8)
 
 ----
 
@@ -409,7 +411,7 @@ http://example.com/?user=<script>alert('pwned')</script>
 
 The application stores user input which is not correctly filtered. It runs within the user’s browser under the privileges of the web application.
 
-[Stored Demo](http://localhost:4000/tutorial/a3)
+[NodeGoat Stored XSS Demo](https://nodegoat.herokuapp.com/tutorial/a3)
 
 ----
 
