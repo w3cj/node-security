@@ -1,0 +1,12 @@
+{
+  "name": "node-security",
+  "version": "1.0.0",
+  "description": "Security with Node.js/Express: Tips and Best Practices",
+  "main": "index.js",
+  "scripts": {
+    "start": "reveal-md  --theme night --highlightTheme hybrid --port 1337 -i custom.js README.md"
+  },
+  "keywords": [],
+  "author": "w3cj <hello@cjr.co.de>",
+  "license": "MIT"
+}
