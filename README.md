@@ -11,7 +11,7 @@
 
 <h1 style="font-family:'MrRobot';color:#CA2222;font-size:6em;">Security</h1>
 ### with
-<img style="display:inline;border:none;height:100px;width:auto;" src="https://nodejs.org/static/images/logo-header.png">
+<img style="display:inline;border:none;height:100px;width:auto;" src="https://raygun.com/blog/wp-content/uploads/2016/05/nodejs-logo.png">
 <img style="display:inline;border:none;height:100px;width:auto;" src="https://i.cloudup.com/zfY6lL7eFa-3000x3000.png">
 
 
@@ -42,7 +42,7 @@
 
 <div style="background: rgba(0, 0, 0, 0.4);border-radius: 50px">
   <h1>CJ</h1>
-  <h3>Instructor, Sr. Full Stack Developer</h3>
+  <h3>Lead Instructor, Sr. Full Stack Developer</h3>
   <h2>at</h2>
   <img src="http://www.galvanize.com/wp-content/themes/galvanize/img/galvanize-logo.svg" style="height:100px;width:auto;border:none;background:rgba(0, 0, 0, 0)">
 </div>
@@ -103,7 +103,7 @@ Lived in Guam, England and Germany before I was 10
 
 ----
 
-<!-- .slide: data-background="http://careers.exxonmobil.com/~/media/Images/USA/In-line-images/REAL_in_line_Clinton_office-jpg.jpg" -->
+<!-- .slide: data-background="http://3.bp.blogspot.com/-Tp2Htgl_39M/T5x1tbPSNTI/AAAAAAAADNA/C6k_aRKYVAs/s1600/0025.jpg" -->
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Exxon_Mobil_Logo.svg/2000px-Exxon_Mobil_Logo.svg.png" style="height:50px;width:auto;border:none;background:rgba(0, 0, 0, 0.5);padding: 20px">
 
@@ -145,7 +145,7 @@ Lived in Guam, England and Germany before I was 10
 
 <div style="background: rgba(0, 0, 0, 0.4);border-radius: 50px">
   <h1>CJ</h1>
-  <h3>Instructor, Sr. Full Stack Developer</h3>
+  <h3>Lead Instructor, Sr. Full Stack Developer</h3>
   <h2>at</h2>
   <img src="http://www.galvanize.com/wp-content/themes/galvanize/img/galvanize-logo.svg" style="height:100px;width:auto;border:none;background:rgba(0, 0, 0, 0)">
 </div>
@@ -235,8 +235,7 @@ Setting headers from the server is easy and often doesn't require any code chang
 
 ## Helmet
 
-[Helmet](https://github.com/helmetjs/helmet
-) helps you secure your Express apps by setting various HTTP headers. It's not a silver bullet, but it can help!
+[Helmet](https://github.com/helmetjs/helmet) helps you secure your Express apps by setting various HTTP headers. It's not a silver bullet, but it can help!
 
 Helmet is a collection of 10 smaller middleware functions that set HTTP headers:
 
@@ -493,6 +492,19 @@ app.post('/process', parseForm, csrfProtection, function(req, res) {
 ----
 
 # Always filter and sanitize user input.
+
+----
+
+## Input comes from _many_ places
+* Query parameters
+* URL path
+* PUT/POST parameters
+* Cookies
+* Headers
+* File uploads
+* Emails
+* Form fields
+* etc.
 
 ----
 
@@ -768,7 +780,7 @@ This doesn't mean you have to be an expert. You can take one step forward on the
 <h1 style="font-family:'MrRobot';color:#CA2222;">Thank you!</h1>
 <h2 style="font-family:'MrRobot';color:#CA2222;">Security</h2>
 ##### with
-<img style="display:inline;border:none;height:75px;width:auto;" src="https://nodejs.org/static/images/logo-header.png">
+<img style="display:inline;border:none;height:75px;width:auto;" src="https://raygun.com/blog/wp-content/uploads/2016/05/nodejs-logo.png">
 <img style="display:inline;border:none;height:75px;width:auto;" src="https://i.cloudup.com/zfY6lL7eFa-3000x3000.png">
 
 
